@@ -1,0 +1,29 @@
+.button {
+  display: inline-block;
+  width: max-content;
+  padding: 12px 32px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  color: var(--typo-primary);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 120%;
+}
+
+.main {
+  background-color: var(--control-primary);
+
+  &:hover {
+    background-color: var(--control-hover);
+  }
+}
+
+.error {
+  background-color: var(--control-danger);
+  &:hover {
+    background-color: var(--control-danger-hover);
+  }
+}
