@@ -1,6 +1,5 @@
 import React, {ButtonHTMLAttributes, DetailedHTMLProps} from 'react';
 import cn from "classnames"
-import {inspect} from "util";
 import styles from "./Button.module.scss"
 
 interface IButton extends DetailedHTMLProps<ButtonHTMLAttributes<HTMLButtonElement>, HTMLButtonElement> {
