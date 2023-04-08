@@ -1,14 +1,14 @@
 import React from 'react';
 import styles from "./Home.module.scss";
-import Button from "../../shared/ui/Button/Button";
+import {Title, TitleMobile} from "../../entities/TitleGroup";
+import useWindowSize from "../../shared/hooks/useWindowSize";
 
 function HomeView() {
+    const {innerWidth} = useWindowSize()
+    const isMobileScreen = Number(innerWidth) < 768;
     return (
         <main className={styles.main}>
-            <div className="row">
-                <Button>details</Button>
-                <Button appearance="error">cancel</Button>
-            </div>
+            {isMobileScreen ? <TitleMobile/> : <Title/>}
         </main>
     );
 }

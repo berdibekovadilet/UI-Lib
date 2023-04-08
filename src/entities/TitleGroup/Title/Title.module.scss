@@ -1,0 +1,10 @@
+.secondRow {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (max-width: 525px) {
+  .secondRow {
+    justify-content: flex-start;
+  }
+}
