@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from "./TitleMobile.module.scss";
 
-export function TitleMobile() {
+export const TitleMobile = () => {
     return (
         <h1 className={styles.title}>
             <div className={styles.firstRow}>mockup</div>

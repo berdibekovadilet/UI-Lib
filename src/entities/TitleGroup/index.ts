@@ -1,2 +1,2 @@
-export {Title} from "./Title/Title"
+export {Title} from "./TitleGroup/Title"
 export {TitleMobile} from "./TitleMobile/TitleMobile"

@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 2rem;
+  border-bottom: 1px solid var(--typo-primary);
+  margin-left: calc(50% - 50vw);
+}
+
+.menu {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+
+  a, img {
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+
+  img {
+    cursor: pointer;
+  }
+}
+

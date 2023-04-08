@@ -7,8 +7,8 @@ const Home: NextPage = () => {
         <>
             <Head>
                 <title>Home</title>
-                <meta name="description" content="Home page for UI Lib"/>
-                <link rel="icon" href="/favicon.ico"/>
+                <meta name="description" content="Home page"/>
+                <link rel="logo" href="/Logo.svg"/>
             </Head>
             <HomeView/>
         </>
