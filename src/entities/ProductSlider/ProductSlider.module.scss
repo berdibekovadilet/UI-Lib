@@ -1,0 +1,32 @@
+.imageSlider {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.imageSlider img {
+  width: 320px;
+  height: 426px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.thumbnails {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.thumbnails img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border: 2px solid transparent;
+}
+
+.thumbnails img.active {
+  border-color: var(--control-hover);
+}
