@@ -4,8 +4,8 @@ import {Title, TitleMobile} from "../../entities/TitleGroup";
 import useWindowSize from "../../shared/hooks/useWindowSize";
 import {Navbar, NavbarMobile} from "../../widgets/NavbarGroup";
 import {menuItems, menuItemsMobile} from "../../widgets/NavbarGroup/MenuItems";
-import Logo from "public/Logo.svg"
-import ShoppingCart from "public/ShoppingCart.svg"
+import Logo from "public/Logo.svg";
+import ShoppingCart from "public/ShoppingCart.svg";
 import {ProductSlider} from "../../entities/ProductSlider";
 
 const images = [
