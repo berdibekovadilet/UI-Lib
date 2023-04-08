@@ -2,8 +2,8 @@ import React, {useState} from 'react';
 import styles from "../NavbarMobile/NavbarMobile.module.scss";
 import Image from "next/image";
 import {NavbarProps} from "../types";
-import MenuIcon from "../../../../public/Menu.svg"
-import CloseIcon from "../../../../public/Close.svg"
+import MenuIcon from "public/Menu.svg"
+import CloseIcon from "public/Close.svg"
 
 export const NavbarMobile: React.FC<NavbarProps> = ({logo, icon, menuItems}) => {
     const [menuOpen, setMenuOpen] = useState(false)
